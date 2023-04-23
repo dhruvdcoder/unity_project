@@ -1,6 +1,8 @@
 # Description
 
-This folder contains a script `multi_gpu_finetune.py` that uses `torch.distributed` to finetune GPT2-medium on 1% of the PG19 dataset for 0.1 epoch using 4 GPUs. Since the script was created for demonstration purposes, we only use a very small fraction of the dataset and 
+This folder contains a script `multi_gpu_finetune.py` that uses `torch.distributed` to finetune GPT2-medium on 1% of the PG19 dataset for 0.1 epoch using 4 GPUs. Since the script was created for demonstration purposes, we only use a very small fraction of the dataset and only train for 0.1 epoch.
+
+If you want to use multiple GPUs in a jupyter notebook, it's not recommended to use `torch.distributed`. Instead, you can look into the Huggingface Accelerate library: https://huggingface.co/docs/accelerate/basic_tutorials/notebook.
 
 # Instructions
 
