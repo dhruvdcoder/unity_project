@@ -1,4 +1,4 @@
 # Entire gitignore for python projects
 .ipynb_checkpoints
-t5-small-finetuned-xsum
+*t5-small-finetuned-xsum
 .venv**
