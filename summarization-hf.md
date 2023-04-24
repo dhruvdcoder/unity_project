@@ -29,7 +29,7 @@ Click on the JupyterLab interactive app and fill out the following fields:
 
 ## Inside JupyterLab:
 
-1. Copy the `summarization-hf.ipynb` notebook available at `/datasets/nlp/HuggingFace/hf-summarization.ipynb` on Unity to your work directory.
+1. Copy the `summarization-hf.ipynb` notebook on Unity to your work directory.
 2. Open the `summarization-hf.ipynb` notebook.
 3. Choose `hf-summarization` for the kernel.
 4. Execute the cells in the notebook following the instructions therein. 
